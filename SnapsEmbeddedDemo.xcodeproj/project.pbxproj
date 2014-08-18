@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D29DCEE19A2797D00ED9C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29DCED19A2797D00ED9C0A /* Foundation.framework */; };
+		3D29DCF019A2797D00ED9C0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29DCEF19A2797D00ED9C0A /* CoreGraphics.framework */; };
+		3D29DCF219A2797D00ED9C0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29DCF119A2797D00ED9C0A /* UIKit.framework */; };
+		3D29DCF819A2797D00ED9C0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D29DCF619A2797D00ED9C0A /* InfoPlist.strings */; };
+		3D29DCFA19A2797D00ED9C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29DCF919A2797D00ED9C0A /* main.m */; };
+		3D29DCFE19A2797D00ED9C0A /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29DCFD19A2797D00ED9C0A /* SNAppDelegate.m */; };
+		3D29DD0119A2797D00ED9C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D29DCFF19A2797D00ED9C0A /* Main.storyboard */; };
+		3D29DD0419A2797D00ED9C0A /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29DD0319A2797D00ED9C0A /* SNViewController.m */; };
+		3D29DD0619A2797D00ED9C0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D29DD0519A2797D00ED9C0A /* Images.xcassets */; };
+		3D29DD0D19A2797D00ED9C0A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29DD0C19A2797D00ED9C0A /* XCTest.framework */; };
+		3D29DD0E19A2797D00ED9C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29DCED19A2797D00ED9C0A /* Foundation.framework */; };
+		3D29DD0F19A2797D00ED9C0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29DCF119A2797D00ED9C0A /* UIKit.framework */; };
+		3D29DD1719A2797D00ED9C0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D29DD1519A2797D00ED9C0A /* InfoPlist.strings */; };
+		3D29DD1919A2797D00ED9C0A /* SnapsEmbeddedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29DD1819A2797D00ED9C0A /* SnapsEmbeddedDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D29DD1019A2797D00ED9C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D29DCE219A2797D00ED9C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D29DCE919A2797D00ED9C0A;
+			remoteInfo = SnapsEmbeddedDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D29DCEA19A2797D00ED9C0A /* SnapsEmbeddedDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapsEmbeddedDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D29DCED19A2797D00ED9C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D29DCEF19A2797D00ED9C0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D29DCF119A2797D00ED9C0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D29DCF519A2797D00ED9C0A /* SnapsEmbeddedDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapsEmbeddedDemo-Info.plist"; sourceTree = "<group>"; };
+		3D29DCF719A2797D00ED9C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D29DCF919A2797D00ED9C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D29DCFB19A2797D00ED9C0A /* SnapsEmbeddedDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapsEmbeddedDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3D29DCFC19A2797D00ED9C0A /* SNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAppDelegate.h; sourceTree = "<group>"; };
+		3D29DCFD19A2797D00ED9C0A /* SNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAppDelegate.m; sourceTree = "<group>"; };
+		3D29DD0019A2797D00ED9C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D29DD0219A2797D00ED9C0A /* SNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNViewController.h; sourceTree = "<group>"; };
+		3D29DD0319A2797D00ED9C0A /* SNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
+		3D29DD0519A2797D00ED9C0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D29DD0B19A2797D00ED9C0A /* SnapsEmbeddedDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapsEmbeddedDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D29DD0C19A2797D00ED9C0A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D29DD1419A2797D00ED9C0A /* SnapsEmbeddedDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapsEmbeddedDemoTests-Info.plist"; sourceTree = "<group>"; };
+		3D29DD1619A2797D00ED9C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D29DD1819A2797D00ED9C0A /* SnapsEmbeddedDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapsEmbeddedDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D29DCE719A2797D00ED9C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29DCF019A2797D00ED9C0A /* CoreGraphics.framework in Frameworks */,
+				3D29DCF219A2797D00ED9C0A /* UIKit.framework in Frameworks */,
+				3D29DCEE19A2797D00ED9C0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D29DD0819A2797D00ED9C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29DD0D19A2797D00ED9C0A /* XCTest.framework in Frameworks */,
+				3D29DD0F19A2797D00ED9C0A /* UIKit.framework in Frameworks */,
+				3D29DD0E19A2797D00ED9C0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D29DCE119A2797D00ED9C0A = {
+			isa = PBXGroup;
+			children = (
+				3D29DCF319A2797D00ED9C0A /* SnapsEmbeddedDemo */,
+				3D29DD1219A2797D00ED9C0A /* SnapsEmbeddedDemoTests */,
+				3D29DCEC19A2797D00ED9C0A /* Frameworks */,
+				3D29DCEB19A2797D00ED9C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D29DCEB19A2797D00ED9C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D29DCEA19A2797D00ED9C0A /* SnapsEmbeddedDemo.app */,
+				3D29DD0B19A2797D00ED9C0A /* SnapsEmbeddedDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D29DCEC19A2797D00ED9C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D29DCED19A2797D00ED9C0A /* Foundation.framework */,
+				3D29DCEF19A2797D00ED9C0A /* CoreGraphics.framework */,
+				3D29DCF119A2797D00ED9C0A /* UIKit.framework */,
+				3D29DD0C19A2797D00ED9C0A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D29DCF319A2797D00ED9C0A /* SnapsEmbeddedDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D29DCFC19A2797D00ED9C0A /* SNAppDelegate.h */,
+				3D29DCFD19A2797D00ED9C0A /* SNAppDelegate.m */,
+				3D29DCFF19A2797D00ED9C0A /* Main.storyboard */,
+				3D29DD0219A2797D00ED9C0A /* SNViewController.h */,
+				3D29DD0319A2797D00ED9C0A /* SNViewController.m */,
+				3D29DD0519A2797D00ED9C0A /* Images.xcassets */,
+				3D29DCF419A2797D00ED9C0A /* Supporting Files */,
+			);
+			path = SnapsEmbeddedDemo;
+			sourceTree = "<group>";
+		};
+		3D29DCF419A2797D00ED9C0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D29DCF519A2797D00ED9C0A /* SnapsEmbeddedDemo-Info.plist */,
+				3D29DCF619A2797D00ED9C0A /* InfoPlist.strings */,
+				3D29DCF919A2797D00ED9C0A /* main.m */,
+				3D29DCFB19A2797D00ED9C0A /* SnapsEmbeddedDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D29DD1219A2797D00ED9C0A /* SnapsEmbeddedDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D29DD1819A2797D00ED9C0A /* SnapsEmbeddedDemoTests.m */,
+				3D29DD1319A2797D00ED9C0A /* Supporting Files */,
+			);
+			path = SnapsEmbeddedDemoTests;
+			sourceTree = "<group>";
+		};
+		3D29DD1319A2797D00ED9C0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D29DD1419A2797D00ED9C0A /* SnapsEmbeddedDemoTests-Info.plist */,
+				3D29DD1519A2797D00ED9C0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D29DCE919A2797D00ED9C0A /* SnapsEmbeddedDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D29DD1C19A2797D00ED9C0A /* Build configuration list for PBXNativeTarget "SnapsEmbeddedDemo" */;
+			buildPhases = (
+				3D29DCE619A2797D00ED9C0A /* Sources */,
+				3D29DCE719A2797D00ED9C0A /* Frameworks */,
+				3D29DCE819A2797D00ED9C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapsEmbeddedDemo;
+			productName = SnapsEmbeddedDemo;
+			productReference = 3D29DCEA19A2797D00ED9C0A /* SnapsEmbeddedDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D29DD0A19A2797D00ED9C0A /* SnapsEmbeddedDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D29DD1F19A2797D00ED9C0A /* Build configuration list for PBXNativeTarget "SnapsEmbeddedDemoTests" */;
+			buildPhases = (
+				3D29DD0719A2797D00ED9C0A /* Sources */,
+				3D29DD0819A2797D00ED9C0A /* Frameworks */,
+				3D29DD0919A2797D00ED9C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D29DD1119A2797D00ED9C0A /* PBXTargetDependency */,
+			);
+			name = SnapsEmbeddedDemoTests;
+			productName = SnapsEmbeddedDemoTests;
+			productReference = 3D29DD0B19A2797D00ED9C0A /* SnapsEmbeddedDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D29DCE219A2797D00ED9C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Snaps;
+				TargetAttributes = {
+					3D29DD0A19A2797D00ED9C0A = {
+						TestTargetID = 3D29DCE919A2797D00ED9C0A;
+					};
+				};
+			};
+			buildConfigurationList = 3D29DCE519A2797D00ED9C0A /* Build configuration list for PBXProject "SnapsEmbeddedDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D29DCE119A2797D00ED9C0A;
+			productRefGroup = 3D29DCEB19A2797D00ED9C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D29DCE919A2797D00ED9C0A /* SnapsEmbeddedDemo */,
+				3D29DD0A19A2797D00ED9C0A /* SnapsEmbeddedDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D29DCE819A2797D00ED9C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29DD0619A2797D00ED9C0A /* Images.xcassets in Resources */,
+				3D29DCF819A2797D00ED9C0A /* InfoPlist.strings in Resources */,
+				3D29DD0119A2797D00ED9C0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D29DD0919A2797D00ED9C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29DD1719A2797D00ED9C0A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D29DCE619A2797D00ED9C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29DCFA19A2797D00ED9C0A /* main.m in Sources */,
+				3D29DD0419A2797D00ED9C0A /* SNViewController.m in Sources */,
+				3D29DCFE19A2797D00ED9C0A /* SNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D29DD0719A2797D00ED9C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29DD1919A2797D00ED9C0A /* SnapsEmbeddedDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D29DD1119A2797D00ED9C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D29DCE919A2797D00ED9C0A /* SnapsEmbeddedDemo */;
+			targetProxy = 3D29DD1019A2797D00ED9C0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D29DCF619A2797D00ED9C0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D29DCF719A2797D00ED9C0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D29DCFF19A2797D00ED9C0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D29DD0019A2797D00ED9C0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D29DD1519A2797D00ED9C0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D29DD1619A2797D00ED9C0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D29DD1A19A2797D00ED9C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D29DD1B19A2797D00ED9C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D29DD1D19A2797D00ED9C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapsEmbeddedDemo/SnapsEmbeddedDemo-Prefix.pch";
+				INFOPLIST_FILE = "SnapsEmbeddedDemo/SnapsEmbeddedDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D29DD1E19A2797D00ED9C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapsEmbeddedDemo/SnapsEmbeddedDemo-Prefix.pch";
+				INFOPLIST_FILE = "SnapsEmbeddedDemo/SnapsEmbeddedDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D29DD2019A2797D00ED9C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnapsEmbeddedDemo.app/SnapsEmbeddedDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapsEmbeddedDemo/SnapsEmbeddedDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnapsEmbeddedDemoTests/SnapsEmbeddedDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D29DD2119A2797D00ED9C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnapsEmbeddedDemo.app/SnapsEmbeddedDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapsEmbeddedDemo/SnapsEmbeddedDemo-Prefix.pch";
+				INFOPLIST_FILE = "SnapsEmbeddedDemoTests/SnapsEmbeddedDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D29DCE519A2797D00ED9C0A /* Build configuration list for PBXProject "SnapsEmbeddedDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D29DD1A19A2797D00ED9C0A /* Debug */,
+				3D29DD1B19A2797D00ED9C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D29DD1C19A2797D00ED9C0A /* Build configuration list for PBXNativeTarget "SnapsEmbeddedDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D29DD1D19A2797D00ED9C0A /* Debug */,
+				3D29DD1E19A2797D00ED9C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D29DD1F19A2797D00ED9C0A /* Build configuration list for PBXNativeTarget "SnapsEmbeddedDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D29DD2019A2797D00ED9C0A /* Debug */,
+				3D29DD2119A2797D00ED9C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D29DCE219A2797D00ED9C0A /* Project object */;
+}
