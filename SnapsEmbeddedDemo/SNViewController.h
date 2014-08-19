@@ -10,4 +10,6 @@
 
 @interface SNViewController : UIViewController
 
+- (IBAction)launchSnaps:(id)sender;
+
 @end
